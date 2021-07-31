@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Vogue";
+  src: local("Vogue"), url("../src/fonts/Vogue.ttf") format("truetype");
+}
+
+.name {
+  font-family: "Vogue";
+  font-size: 90px;
+  display: inline-block;
+  width: 50%;
+  margin-left: 570px;
+}
+
+.rectangle {
+  position: absolute;
+  height: 300px;
+  width: 160px;
+  background-color: #e0e0e0;
+  margin-left: 460px;
+  margin-top: -20px;
+  z-index: -1;
+}
+
+.tagline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  max-width: 20%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.navbar {
+  display: inline-block;
+  margin-left: 370px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.secttwo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.secttwo p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #808080;
+  line-height: 35px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.sectthree h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.sectthree h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 130px;
+  display: inline-block;
+}
+
+.sectthree h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 130px;
+  display: inline-block;
+  margin-top: -90px;
+}
+
+.experience h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.cards {
+  margin-left: 130px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  margin-left: 80px;
+  box-shadow: 10px 10px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.card h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: -18px;
+}
+
+.card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #595959;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.projects h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.pcard {
+  margin-left: 80px;
+  box-shadow: 10px 10px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 70%;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+.pcard h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.pcard p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.pcard h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.techicons h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.icons {
+  list-style: none;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 340px;
+}
+
+.icons li {
+  margin-top: 100px;
+}
+
+.icons li img {
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.icons img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.contact h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.socialmedia {
+  list-style: none;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 500px;
+  margin-top: 100px;
+}
