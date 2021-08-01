@@ -4,7 +4,7 @@ import data from "../experience";
 
 
 export default function Sectfour() {
-    return <div className="experience" style={{marginTop: "170px"}}>
+    return <div className="experience">
         <h1>Pragmatic Experience</h1>
         <ul className="cards">
             {data.map(({ heading, title, text }) => (

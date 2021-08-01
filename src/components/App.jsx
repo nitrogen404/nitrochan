@@ -1,4 +1,6 @@
 import React from "react";
+import particleConfig from "../particleconfig";
+import Particles from "react-particles-js";
 import Sectone from "./Sectone";
 import Secttwo from "./Secttwo";
 import Sectthree from "./Sectthree";
@@ -9,6 +11,7 @@ import Contact from "./Contact";
 
 export default function App() {
     return <div className="container">
+        <Particles className="particles" params={particleConfig} />
         <Sectone/>
         <Secttwo />
         <Sectthree />

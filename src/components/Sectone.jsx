@@ -1,9 +1,10 @@
 import React from "react";
 
 export default function Sectone() {
-    return <div className="secone" style={{height: "100vh"}}>
+    return <div className="secone" style={{ height: "100vh" }}>
+       
         <div className="imglogo">
-            <img style={{marginLeft: "100px", height: "128px", width: "128px"}} src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
+            <img className="logo" src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
         </div>
         <div className="text">
             <div className="rectangle"></div>
@@ -18,7 +19,7 @@ export default function Sectone() {
                     <li>Technical Me</li>
                 </ul>
             </nav>
-            <hr style={ {background: "#C4C4C4", width: "30%"}}/>
+            <hr className="line"/>
         </div>
     </div>
 }

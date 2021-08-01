@@ -3,8 +3,8 @@ import React from "react";
 export default function Secttwo() {
     return <div className="secttwo">
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum <br />PS:  I wear glasses :P</p>
-        <img src={process.env.PUBLIC_URL + "/images/gradient_circle.png"} alt="I'ts MEEEE!!!!" style={{height: "350px", width: "350px", float: "right", marginRight: "170px", borderRadius: "50%"}} />
+        <p>Heyy! I'm Chandan. <br /> Fanatical Programmer, Dilettante Cook. I'm keen about the web technologies and Javascript. Sometimes people ask me why do I code? Is it that I'm a nerd?<br />Quite not!  When I turn on the screen, all I see is a world waiting for me that I can call my own. As a programmer, all I need is laptop to make my fortune. I can make products that could touch life of millions... all from my tiny room. <br /> Apart from programming I love playing and watching football and EDM music. <br />  PS:  I wear glasses :P</p>
+        <img className="picture" src={process.env.PUBLIC_URL + "/images/gradient_circle.png"} alt="I'ts MEEEE!!!!" />
     </div>
 }
 

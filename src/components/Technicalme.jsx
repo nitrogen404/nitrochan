@@ -3,7 +3,7 @@ import React from "react";
 const style = {height: "80px", width: "80px"}
 
 export default function Technicalme() {
-    return <div className="techicons" style={{marginTop: "170px"}}>
+    return <div className="techicons">
         <h1>Technical Me</h1>
         <ul className="icons">
             <li><img style={style} src={process.env.PUBLIC_URL + "/images/python.png"} alt="python" /></li>
@@ -16,6 +16,10 @@ export default function Technicalme() {
             <li><img style={style} src={process.env.PUBLIC_URL + "/images/figma.png"} alt="figma" /></li>
             <li><img style={style} src={process.env.PUBLIC_URL + "/images/photoshop.png"} alt="photoshop" /></li>
             <li><img style={style} src={process.env.PUBLIC_URL + "/images/indesign.png"} alt="indesign" /></li>
+            <li><img style={style} src={process.env.PUBLIC_URL + "/images/mysql.png"} alt="mysql" /></li>
+            <li><img style={style} src={process.env.PUBLIC_URL + "/images/3dprint.png"} alt="3d printing" /></li>
+
+
         </ul>
     </div>
 }
