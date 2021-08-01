@@ -1,0 +1,516 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.particles {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 100px;
+  height: 128px;
+  width: 128px;
+}
+
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  display: inline-block;
+  width: 50%;
+  margin-left: 450px;
+  line-height: 100px;
+}
+
+.rectangle {
+  position: absolute;
+  height: 300px;
+  width: 160px;
+  background-color: #e0e0e0;
+  margin-left: 370px;
+  margin-top: 30px;
+  z-index: -1;
+}
+
+.tagline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  max-width: 20%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.navbar {
+  display: inline-block;
+  margin-left: 370px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.line {
+  background: "#C4C4C4";
+  width: 30%;
+}
+
+.secttwo {
+  margin-top: 170px;
+}
+
+.secttwo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.secttwo p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #808080;
+  line-height: 35px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.picture {
+  height: 350px;
+  width: 350px;
+  float: right;
+  margin-right: 170px;
+  border-radius: 50%;
+}
+
+.sectthree {
+  margin-top: 170px;
+}
+
+.sectthree h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.sectthree h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 130px;
+  display: inline-block;
+}
+
+.sectthree h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 130px;
+  display: inline-block;
+  margin-top: -90px;
+}
+
+.unilogo {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-top: -120px;
+  margin-right: 170px;
+}
+
+.experience {
+  margin-top: 170px;
+}
+
+.experience h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.cards {
+  margin-left: 130px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  margin-left: 80px;
+  box-shadow: 10px 10px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.card:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.4s;
+}
+
+.card h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: -18px;
+}
+
+.card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #595959;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.projects {
+  margin-top: 170px;
+}
+
+.projects h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.pcard {
+  margin-left: 80px;
+  box-shadow: 10px 10px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 70%;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+.pcard:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.4s;
+}
+
+.pcard h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.pcard p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.pcard h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.gitacc {
+  height: 80px;
+  width: 80px;
+  margin-top: 100px;
+  margin-left: 720px;
+}
+
+.link {
+  text-align: center;
+}
+
+.techicons {
+  margin-top: 170px;
+}
+
+.techicons h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.icons {
+  list-style: none;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 340px;
+}
+
+.icons li {
+  margin-top: 100px;
+}
+
+.icons li img {
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.icons img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.contact {
+  background-color: #000;
+}
+
+.contact h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 130px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.socialmedia {
+  list-style: none;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+@media only screen and (max-device-width: 600px) and (min-device-width: 320px) {
+  body {
+    overflow-x: none;
+  }
+
+  .logo {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+  }
+
+  .name {
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 80px;
+    line-height: 56px;
+  }
+
+  .rectangle {
+    height: 25%;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .tagline {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 40px;
+    max-width: 60%;
+  }
+
+  .navbar {
+    margin-left: -20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 80px;
+  }
+
+  .navbar ul {
+    width: 100%;
+  }
+
+  .navbar li {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+
+  .line {
+    width: 70%;
+  }
+
+  .secttwo {
+    margin-top: 10px;
+  }
+
+  .secttwo h1 {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .secttwo p {
+    font-size: 15px;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .picture {
+    height: 250px;
+    width: 250px;
+    margin-right: 90px;
+    margin-top: 20px;
+  }
+
+  .sectthree {
+    margin-top: 340px;
+  }
+
+  .sectthree h1 {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .sectthree h4 {
+    font-size: 18px;
+    margin-left: 27px;
+  }
+
+  .sectthree h6 {
+    font-size: 15px;
+    margin-left: 27px;
+    margin-top: 0px;
+  }
+
+  .unilogo {
+    height: 200px;
+    width: 200px;
+    float: center;
+    margin-top: 0px;
+    margin-right: 95px;
+  }
+
+  .experience {
+    margin-top: 270px;
+  }
+
+  .experience h1 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .cards {
+    margin-left: 30px;
+    margin-top: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    margin-left: -50px;
+    width: 90%;
+    height: 70%;
+    margin-top: 50px;
+  }
+
+  .card p {
+    font-size: 15px;
+    margin-top: -10px;
+    line-height: 25px;
+  }
+
+  .projects h1 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .pcard {
+    margin-left: -30px;
+    width: 75%;
+    height: 75%;
+    margin-top: 30px;
+  }
+
+  .pcard h3 {
+    font-size: 13px;
+  }
+
+  .pcard p {
+    font-size: 13px;
+    margin-top: 30px;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  .pcard h6 {
+    font-size: 12px;
+    margin-top: -5px;
+  }
+
+  .gitacc {
+    height: 80px;
+    width: 80px;
+    margin-top: 70px;
+    margin-left: 160px;
+  }
+
+  .link {
+    font-family: "Open Sans, sans-serif";
+    font-size: 14px;
+    text-align: "center";
+    margin-left: 90px;
+  }
+
+  .techicons {
+    margin-top: 80px;
+  }
+
+  .techicons h1 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .icons {
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
+  }
+
+  .icons li {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .contact h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 30px;
+    color: #fff;
+  }
+
+  .socialmedia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+}
