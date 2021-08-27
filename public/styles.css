@@ -3,6 +3,26 @@ body {
   padding: 0px;
 }
 
+@font-face {
+  font-family: "Walsheim pro";
+  src: url(../src/fonts/GTWalsheimPro-Black.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Sanfransisco medium";
+  src: url(../src/fonts/SFProDisplay-Medium.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Sanfransisco regular";
+  src: url(../src/fonts/SFProDisplay-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Sanfransisco bold";
+  src: url(../src/fonts/SFProDisplay-Bold.ttf) format(truetype);
+}
+
 .particles {
   position: absolute;
   z-index: -1;
@@ -17,7 +37,7 @@ body {
 }
 
 .name {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Walsheim pro", sans-serif;
   font-weight: 800;
   font-size: 120px;
   display: inline-block;
@@ -37,7 +57,7 @@ body {
 }
 
 .tagline {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 400;
   font-size: 22px;
   max-width: 20%;
@@ -58,7 +78,7 @@ body {
 .navbar li {
   display: inline-block;
   margin-left: 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
@@ -73,14 +93,14 @@ body {
 }
 
 .secttwo h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
 }
 
 .secttwo p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 100;
   font-size: 18px;
   color: #808080;
@@ -104,14 +124,14 @@ body {
 }
 
 .sectthree h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
 }
 
 .sectthree h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 400;
   font-size: 25px;
   margin-left: 130px;
@@ -119,7 +139,7 @@ body {
 }
 
 .sectthree h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 400;
   font-size: 20px;
   margin-left: 130px;
@@ -140,7 +160,7 @@ body {
 }
 
 .experience h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
@@ -168,20 +188,20 @@ body {
 }
 
 .card h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
 .card h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 600;
   font-size: 16px;
   margin-top: -18px;
 }
 
 .card p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 300;
   color: #595959;
   font-size: 15px;
@@ -193,7 +213,7 @@ body {
 }
 
 .projects h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
@@ -214,13 +234,13 @@ body {
 }
 
 .pcard h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
 .pcard p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 400;
   font-size: 13px;
   margin-top: 30px;
@@ -228,7 +248,7 @@ body {
 }
 
 .pcard h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco regular", sans-serif;
   font-weight: 600;
   font-size: 14px;
   margin-top: -5px;
@@ -250,7 +270,7 @@ body {
 }
 
 .techicons h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
@@ -285,7 +305,7 @@ body {
 }
 
 .contact h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sanfransisco bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-left: 130px;
@@ -474,9 +494,10 @@ body {
   }
 
   .link {
-    font-family: "Open Sans, sans-serif";
+    font-family: "Sanfransisco regular";
     font-size: 13px;
     text-align: center;
+    color: black;
     margin-left: 0px;
   }
 
