@@ -8,7 +8,7 @@ export default function Sectone() {
         </div>
         <div className="text">
             <div className="rectangle"></div>
-            <h1 className="name">Chandan Dhamande</h1>
+            <h1 className="name">Hello! <br> I'm Chandan</h1>
             <h4 className="tagline">Designed to Laconic and Ostantatious</h4>
             <nav className="navbar">
                 <ul>
