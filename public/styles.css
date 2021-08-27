@@ -316,15 +316,15 @@ body {
 
   .name {
     font-size: 60px;
-    margin-left: 30px;
+    margin-left: 85px;
     margin-top: 80px;
-    line-height: 56px;
+    line-height: 49px;
   }
 
   .rectangle {
-    height: 25%;
+    height: 31%;
     width: 40%;
-    margin-left: 20px;
+    margin-left: 35px;
     margin-top: 40px;
   }
 
