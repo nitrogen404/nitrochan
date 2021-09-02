@@ -44,6 +44,7 @@ body {
   width: 50%;
   margin-left: 450px;
   line-height: 100px;
+  letter-spacing: -0.042em;
 }
 
 .rectangle {
